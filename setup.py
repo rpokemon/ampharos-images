@@ -14,8 +14,11 @@ if not version:
     raise RuntimeError("version is not set")
 
 readme = ""
-with open("README.rst") as f:
-    readme = f.read()
+try:
+    with open("README.rst") as f:
+        readme = f.read()
+except FileNotFoundError:
+    readme = "No Readme"
 
 setup(
     name="ampharos_images",

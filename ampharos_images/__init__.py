@@ -4,7 +4,7 @@ __title__ = "ampharos_images"
 __author__ = "Bijij"
 __license__ = "MIT"
 __copyright__ = "Copyright 2023-present Bijij"
-__version__ = "3.0.1"
+__version__ = "3.1.0"
 
 from typing import TYPE_CHECKING
 
